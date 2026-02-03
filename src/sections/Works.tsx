@@ -10,7 +10,7 @@ const projects = [
     role: ['iOS', 'Design', 'Dev'],
     year: '2026',
     url: 'https://dear.knotwith.com',
-    color: '#C4A484',
+    image: '/works/dear-thumbnail.png',
   },
 ]
 
@@ -38,13 +38,12 @@ export function Works() {
                 rel="noopener noreferrer"
                 className={styles.card}
               >
-                <div
-                  className={styles.thumbnail}
-                  style={{ backgroundColor: project.color }}
-                >
-                  <span className={styles.projectInitial}>
-                    {t(`works.projects.${project.id}.name`).charAt(0)}
-                  </span>
+                <div className={styles.thumbnail}>
+                  <img
+                    src={project.image}
+                    alt={t(`works.projects.${project.id}.name`)}
+                    className={styles.thumbnailImage}
+                  />
                 </div>
                 <div className={styles.content}>
                   <div className={styles.meta}>

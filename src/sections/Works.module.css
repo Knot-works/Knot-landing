@@ -61,14 +61,18 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
+  background: var(--color-bg-alt);
 }
 
-.projectInitial {
-  font-family: var(--font-accent);
-  font-size: 4rem;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
-  letter-spacing: -0.02em;
+.thumbnailImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s var(--ease-out-expo);
+}
+
+.card:hover .thumbnailImage {
+  transform: scale(1.05);
 }
 
 .content {
@@ -154,10 +158,6 @@
 
   .thumbnail {
     height: 140px;
-  }
-
-  .projectInitial {
-    font-size: 3rem;
   }
 
   .content {
