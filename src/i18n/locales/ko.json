@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "greeting": "소개",
+    "services": "서비스",
+    "works": "작업",
+    "company": "회사 정보"
+  },
+  "greeting": {
+    "label": "소개",
+    "subtitle": "환영합니다",
+    "text1": "Knot 웹사이트를 방문해 주셔서 감사합니다.",
+    "text2": "Knot은 웹 및 애플리케이션 디자인과 개발을 전문으로 하는 개인 사업입니다.",
+    "text3": "사용자에게 직관적이고 사용하기 쉬운 서비스를 목표로, 기획부터 디자인, 구현까지 일관되게 대응하고 있습니다."
+  },
+  "services": {
+    "label": "서비스",
+    "description": "Knot에서는 다음의 업무를 중심으로 진행하고 있습니다.",
+    "items": {
+      "web": "웹사이트 및 애플리케이션 기획・개발",
+      "design": "UI / UX 디자인",
+      "frontend": "프론트엔드 구현 (React 등)",
+      "prototype": "프로토타입 제작 및 개선 지원"
+    }
+  },
+  "works": {
+    "label": "작업",
+    "description": "지금까지 진행한 사업・프로젝트",
+    "viewMore": "자세히 보기",
+    "projects": {
+      "dear": {
+        "name": "Dear",
+        "description": "장거리 연애 중인 커플을 위한 편지 앱"
+      }
+    }
+  },
+  "company": {
+    "label": "회사 정보",
+    "items": {
+      "name": {
+        "label": "상호",
+        "value": "Knot"
+      },
+      "type": {
+        "label": "사업 형태",
+        "value": "개인 사업"
+      },
+      "representative": {
+        "label": "대표자",
+        "value": "오키타 마히루"
+      },
+      "business": {
+        "label": "사업 내용",
+        "value": "웹 및 애플리케이션 디자인과 개발"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Knot. All rights reserved."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "greeting": "About",
+    "services": "Services",
+    "works": "Works",
+    "company": "Company"
+  },
+  "greeting": {
+    "label": "About",
+    "subtitle": "Welcome",
+    "text1": "Thank you for visiting the Knot website.",
+    "text2": "Knot is a sole proprietorship specializing in web and application design and development.",
+    "text3": "We aim to create services that are intuitive and easy to use, handling everything from planning to design and implementation."
+  },
+  "services": {
+    "label": "Services",
+    "description": "At Knot, we focus on the following services.",
+    "items": {
+      "web": "Website and Application Planning & Development",
+      "design": "UI / UX Design",
+      "frontend": "Frontend Development (React, etc.)",
+      "prototype": "Prototyping and Improvement Support"
+    }
+  },
+  "works": {
+    "label": "Works",
+    "description": "Projects and businesses we've worked on",
+    "viewMore": "Learn more",
+    "projects": {
+      "dear": {
+        "name": "Dear",
+        "description": "A letter app for couples in long-distance relationships"
+      }
+    }
+  },
+  "company": {
+    "label": "Company Info",
+    "items": {
+      "name": {
+        "label": "Business Name",
+        "value": "Knot"
+      },
+      "type": {
+        "label": "Business Type",
+        "value": "Sole Proprietorship"
+      },
+      "representative": {
+        "label": "Representative",
+        "value": "Mahiru Okita"
+      },
+      "business": {
+        "label": "Business Description",
+        "value": "Web & Application Design and Development"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Knot. All rights reserved."
+  }
+}

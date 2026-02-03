@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "greeting": "ご挨拶",
+    "services": "私たちの仕事",
+    "works": "Works",
+    "company": "会社情報"
+  },
+  "greeting": {
+    "label": "ご挨拶",
+    "subtitle": "みなさまへ",
+    "text1": "KnotのWebサイトをご覧いただき、ありがとうございます。",
+    "text2": "Knotは、Web・アプリケーションのデザインおよび開発を行う個人事業です。",
+    "text3": "ユーザーにとって分かりやすく、使いやすいサービスを目指し、企画からデザイン、実装まで一貫して対応しています。"
+  },
+  "services": {
+    "label": "私たちの仕事",
+    "description": "Knotでは、以下の業務を中心に行っています。",
+    "items": {
+      "web": "Webサイトおよびアプリケーションの企画・開発",
+      "design": "UI / UXデザイン",
+      "frontend": "フロントエンド実装（React 等）",
+      "prototype": "プロトタイプ制作および改善支援"
+    }
+  },
+  "works": {
+    "label": "Works",
+    "description": "これまでに手がけた事業・プロジェクト",
+    "viewMore": "詳しく見る",
+    "projects": {
+      "dear": {
+        "name": "Dear",
+        "description": "遠距離恋愛をしているカップル向けのレターアプリ"
+      }
+    }
+  },
+  "company": {
+    "label": "会社情報",
+    "items": {
+      "name": {
+        "label": "屋号",
+        "value": "Knot"
+      },
+      "type": {
+        "label": "事業形態",
+        "value": "個人事業"
+      },
+      "representative": {
+        "label": "代表者名",
+        "value": "置田　まひる"
+      },
+      "business": {
+        "label": "事業内容",
+        "value": "Web・アプリケーションのデザインおよび開発"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Knot. All rights reserved."
+  }
+}
