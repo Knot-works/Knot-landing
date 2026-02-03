@@ -1,0 +1,28 @@
+.container {
+  overflow: hidden;
+}
+
+.word {
+  display: inline-block;
+}
+
+.char {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+  transform: translateY(8px);
+  transition:
+    opacity 0.35s var(--ease-out-quart),
+    filter 0.35s var(--ease-out-quart),
+    transform 0.35s var(--ease-out-quart);
+}
+
+.char.visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+.space {
+  display: inline-block;
+}
