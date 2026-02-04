@@ -8,7 +8,7 @@ const projects = [
   {
     id: 'mogu',
     role: ['iOS', 'Design', 'Dev'],
-    year: '2025',
+    year: '2026',
     url: 'https://mogu.knotwith.com',
     image: '/works/mogu-thumbnail.png',
     award: 'works.projects.mogu.award',
