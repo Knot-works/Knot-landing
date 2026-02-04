@@ -27,6 +27,11 @@
     "description": "Projects and businesses we've worked on",
     "viewMore": "Learn more",
     "projects": {
+      "mogu": {
+        "name": "mogu",
+        "description": "AI-powered meal planning app that helps you decide what to eat today",
+        "award": "Giiku CAMP Grand Prize"
+      },
       "dear": {
         "name": "Dear",
         "description": "A letter app for couples in long-distance relationships"

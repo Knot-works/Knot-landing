@@ -1,10 +1,18 @@
 import { useTranslation } from 'react-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUpRightFromSquare, faTrophy } from '@fortawesome/free-solid-svg-icons'
 import { ScrollReveal } from '../components/ScrollReveal'
 import styles from './Works.module.css'
 
 const projects = [
+  {
+    id: 'mogu',
+    role: ['iOS', 'Design', 'Dev'],
+    year: '2025',
+    url: 'https://mogu.knotwith.com',
+    image: '/works/mogu-thumbnail.png',
+    award: 'works.projects.mogu.award',
+  },
   {
     id: 'dear',
     role: ['iOS', 'Design', 'Dev'],
@@ -44,6 +52,12 @@ export function Works() {
                     alt={t(`works.projects.${project.id}.name`)}
                     className={styles.thumbnailImage}
                   />
+                  {project.award && (
+                    <div className={styles.award}>
+                      <FontAwesomeIcon icon={faTrophy} />
+                      <span>{t(project.award)}</span>
+                    </div>
+                  )}
                 </div>
                 <div className={styles.content}>
                   <div className={styles.meta}>

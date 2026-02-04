@@ -76,6 +76,26 @@
   transform: scale(1.05);
 }
 
+.award {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #1a1a1a;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 100px;
+  box-shadow: 0 4px 12px rgba(255, 165, 0, 0.3);
+}
+
+.award svg {
+  font-size: 0.7rem;
+}
+
 .content {
   padding: var(--space-lg);
 }

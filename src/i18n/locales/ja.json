@@ -27,6 +27,11 @@
     "description": "これまでに手がけた事業・プロジェクト",
     "viewMore": "詳しく見る",
     "projects": {
+      "mogu": {
+        "name": "mogu",
+        "description": "AIとの対話で今日の献立がすぐ決まる、献立提案アプリ",
+        "award": "技育CAMP 最優秀賞"
+      },
       "dear": {
         "name": "Dear",
         "description": "遠距離恋愛をしているカップル向けのレターアプリ"
