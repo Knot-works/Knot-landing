@@ -6,11 +6,18 @@
     "company": "Company"
   },
   "greeting": {
-    "label": "About",
-    "subtitle": "Welcome",
-    "text1": "Thank you for visiting the Knot website.",
-    "text2": "Knot is a sole proprietorship specializing in web and application design and development.",
-    "text3": "We aim to create services that are intuitive and easy to use, handling everything from planning to design and implementation."
+    "label": "Message",
+    "subtitle": "Nice to meet you. We are Knot.",
+    "text1": "At Knot, we value human connections.",
+    "text2": "Through web, apps, design, and prototyping, we aim to create comfortable ties between users, creators, and everyone involved.",
+    "text3": "We approach each project with care, valuing not just speed and efficiency, but who we work with and what kind of relationships we build."
+  },
+  "philosophy": {
+    "label": "Our Name",
+    "title": "Why \"Knot\"?",
+    "text1": "Knot means a tie that binds. Even the smallest points become stronger and more meaningful when connected.",
+    "text2": "We aspire to be the ones who carefully connect people with people, ideas with technology, and concepts with society.",
+    "text3": "Knot is not just about creating—it's a name for designing relationships themselves."
   },
   "services": {
     "label": "Services",
