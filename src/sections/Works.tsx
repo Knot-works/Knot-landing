@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare, faTrophy } from '@fortawesome/free-solid-svg-icons'
 import { ScrollReveal } from '../components/ScrollReveal'
+import { LiquidHover } from '../components/LiquidHover'
 import styles from './Works.module.css'
 
 const projects = [
@@ -40,12 +41,13 @@ export function Works() {
         <div className={styles.grid}>
           {projects.map((project, index) => (
             <ScrollReveal key={index} delay={index * 150}>
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.card}
-              >
+              <LiquidHover>
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.card}
+                >
                 <div className={styles.thumbnail}>
                   <img
                     src={project.image}
@@ -75,7 +77,8 @@ export function Works() {
                     <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                   </span>
                 </div>
-              </a>
+                </a>
+              </LiquidHover>
             </ScrollReveal>
           ))}
         </div>

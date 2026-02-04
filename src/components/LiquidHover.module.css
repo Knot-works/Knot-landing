@@ -1,0 +1,33 @@
+.liquidHover {
+  position: relative;
+  transition: transform 0.15s ease-out;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.glare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.liquidHover:hover .glare {
+  opacity: 1;
+}
+
+/* Disable on mobile/touch devices */
+@media (hover: none) {
+  .liquidHover {
+    transform: none !important;
+  }
+
+  .glare {
+    display: none;
+  }
+}
