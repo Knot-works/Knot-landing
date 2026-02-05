@@ -24,7 +24,7 @@ export function Header() {
   }, [])
 
   return (
-    <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
+    <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''} ${isMobileMenuOpen ? styles.menuOpen : ''}`}>
       <div className={styles.inner}>
         <a href="#" className={styles.logo}>
           <img src="/knot-logo.webp" alt="Knot" className={styles.logoImage} />
