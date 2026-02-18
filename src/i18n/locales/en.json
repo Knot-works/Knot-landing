@@ -42,6 +42,10 @@
       "dear": {
         "name": "Dear",
         "description": "A letter app for couples in long-distance relationships"
+      },
+      "writto": {
+        "name": "Writto",
+        "description": "AI-powered English writing learning platform"
       }
     }
   },

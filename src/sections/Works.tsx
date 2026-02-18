@@ -7,6 +7,13 @@ import styles from './Works.module.css'
 
 const projects = [
   {
+    id: 'writto',
+    role: ['Web', 'Design', 'Dev'],
+    year: '2026',
+    url: 'https://writto.knotwith.com',
+    image: '/works/writto-thumbnail.png',
+  },
+  {
     id: 'mogu',
     role: ['iOS', 'Design', 'Dev'],
     year: '2026',
